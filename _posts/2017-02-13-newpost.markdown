@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Brand new blog post!"
-date:   2017-02-13 12:25:03 +1100
+title: Brand new blog post!
+date: '2017-02-13 12:25:03 +1100'
 categories: jekyll update
+published: true
 ---
 
 Welcome to my blog. Here's a sample C++ code snippet to go along with the first blog post.
@@ -18,6 +19,24 @@ int main()
 {% endhighlight %}
 
 Here's a link to [Google][google] in case you'd like to search the internet. May be you'd prefer [bing][bing] instead? :-)
+
+This part has been modified by prose.io and let's see how this holds up. 
+
+Here's a photo of random something:
+![An Alaskan malamute](http://www.pets4homes.co.uk/images/articles/3036/large/training-the-alaskan-malamute-successfully-559a6a5d88066.jpg)
+
+Adding code:
+
+{% highlight c++ %}
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    cout<<"Using prose for this"<<endl;
+    return 0;
+}
+{% endhighlight %}
 
 [google]: http://google.com
 [bing]: http://bing.com
